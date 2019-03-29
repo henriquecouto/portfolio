@@ -10,7 +10,7 @@ class MyLink extends Component {
     return (
       <Link to={to} className="link">
         <i className="material-icons-round scale-up-center">{icon}</i>
-        <p className="focus-in-expand">{text}</p>
+        <p className="tracking-in-expand">{text}</p>
       </Link>
     );
   }
