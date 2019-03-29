@@ -1,7 +1,11 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import SideBar from "./components/SideBar";
 import Home from "./screens/Home";
+import Contact from "./screens/Contact";
+import Works from "./screens/Works";
+import About from "./screens/About";
 
 import "./App.css";
 
@@ -10,9 +14,14 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <SideBar>
-            <Home />
-          </SideBar>
+          <Router>
+            <SideBar>
+              <Route exact path="/" component={Home} />
+              <Route exact path="/contact" component={Contact} />
+              <Route exact path="/works" component={Works} />
+              <Route exact path="/about" component={About} />
+            </SideBar>
+          </Router>
         </div>
       </div>
     );
