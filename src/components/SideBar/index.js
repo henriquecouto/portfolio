@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import "./style.css";
 import MyLink from "./MyLink";
 import SocialLink from "./SocialLink";
+import LogoSwing from "../LogoSwing";
 import logo from "../../assets/logo.svg";
 
 class SideBar extends Component {
@@ -13,11 +14,11 @@ class SideBar extends Component {
     return (
       <>
         <div className="sidenav">
-          <div className="section">
-            <Link to="/">
+          <Link to="/">
+            <div className="section">
               <img src={logo} className="logo" alt="Logo H" />
-            </Link>
-          </div>
+            </div>
+          </Link>
 
           <div className="section">
             <MyLink to="/" icon="home" text="INÍCIO" />
@@ -42,14 +43,21 @@ class SideBar extends Component {
           </div>
         </div>
 
-        <div className="main">{children}</div>
+        <div className="main">
+          <div className="container">
+            <div className="row">
+              {children}
+              <LogoSwing />
+            </div>
+          </div>
+        </div>
       </>
     );
   }
 }
 
 SideBar.propTypes = {
-  children: PropTypes.object.isRequired
+  children: PropTypes.array.isRequired
 };
 
 export default SideBar;

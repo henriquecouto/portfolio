@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import SideBar from "./components/SideBar";
-import Home from "./screens/Home";
-import Contact from "./screens/Contact";
-import Works from "./screens/Works";
-import About from "./screens/About";
+import Home from "./components/Home";
+import Contact from "./components/Contact";
+import Works from "./components/Works";
+import About from "./components/About";
 
 import "./App.css";
 

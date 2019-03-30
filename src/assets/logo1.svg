@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="394.94699mm"
+   height="706.13977mm"
+   viewBox="0 0 394.94699 706.13977"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="logo1.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1143">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop1139" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop1141" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4674">
+      <rect
+         style="opacity:1;fill:#808080;fill-opacity:1;stroke-width:0.26458332"
+         id="rect4676"
+         width="134.9375"
+         height="69.925591"
+         x="36.733707"
+         y="65.349236" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4682">
+      <rect
+         y="135.27483"
+         x="36.733707"
+         height="69.925591"
+         width="134.9375"
+         id="rect4684"
+         style="opacity:1;fill:#808080;fill-opacity:1;stroke-width:0.26458332" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4758">
+      <rect
+         style="opacity:0.98999999;fill:#808080;fill-opacity:1;stroke-width:0.26458332"
+         id="rect4760"
+         width="53.445827"
+         height="9.921875"
+         x="405.60623"
+         y="316.05002"
+         ry="4.9609375" />
+    </clipPath>
+    <filter
+       x="-0.15000001"
+       width="1.3"
+       y="-0.15000001"
+       height="1.3"
+       inkscape:menu-tooltip="Stone wall texture to use with not too saturated colors"
+       inkscape:menu="Textures"
+       inkscape:label="Stone Wall"
+       style="color-interpolation-filters:sRGB"
+       id="filter923">
+      <feTurbulence
+         type="turbulence"
+         numOctaves="5"
+         baseFrequency="0.08 0.175"
+         seed="25"
+         id="feTurbulence901" />
+      <feColorMatrix
+         result="result5"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         id="feColorMatrix903" />
+      <feComposite
+         in="SourceGraphic"
+         operator="in"
+         in2="result5"
+         id="feComposite905" />
+      <feMorphology
+         operator="dilate"
+         radius="0.65"
+         result="result3"
+         id="feMorphology907" />
+      <feTurbulence
+         numOctaves="7"
+         baseFrequency="0.05 0.09"
+         type="fractalNoise"
+         seed="25"
+         id="feTurbulence909" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="result7"
+         id="feGaussianBlur911" />
+      <feDisplacementMap
+         in="result3"
+         xChannelSelector="R"
+         yChannelSelector="G"
+         scale="5"
+         result="result4"
+         in2="result7"
+         id="feDisplacementMap913" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(255,255,255)"
+         id="feFlood915" />
+      <feComposite
+         k3="0.7"
+         k1="0.7"
+         result="result2"
+         operator="arithmetic"
+         in2="result4"
+         id="feComposite917"
+         k2="0"
+         k4="0" />
+      <feComposite
+         k2="1"
+         in="result2"
+         operator="arithmetic"
+         in2="SourceAlpha"
+         k1="1"
+         result="result6"
+         id="feComposite919"
+         k3="0"
+         k4="0" />
+      <feBlend
+         mode="multiply"
+         in2="result6"
+         in="result6"
+         id="feBlend921" />
+    </filter>
+    <filter
+       x="-0.15000001"
+       width="1.3"
+       y="-0.15000001"
+       height="1.3"
+       inkscape:menu-tooltip="Stone wall texture to use with not too saturated colors"
+       inkscape:menu="Textures"
+       inkscape:label="Stone Wall"
+       style="color-interpolation-filters:sRGB"
+       id="filter947">
+      <feTurbulence
+         type="turbulence"
+         numOctaves="5"
+         baseFrequency="0.08 0.175"
+         seed="25"
+         id="feTurbulence925" />
+      <feColorMatrix
+         result="result5"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         id="feColorMatrix927" />
+      <feComposite
+         in="SourceGraphic"
+         operator="in"
+         in2="result5"
+         id="feComposite929" />
+      <feMorphology
+         operator="dilate"
+         radius="0.65"
+         result="result3"
+         id="feMorphology931" />
+      <feTurbulence
+         numOctaves="7"
+         baseFrequency="0.05 0.09"
+         type="fractalNoise"
+         seed="25"
+         id="feTurbulence933" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="result7"
+         id="feGaussianBlur935" />
+      <feDisplacementMap
+         in="result3"
+         xChannelSelector="R"
+         yChannelSelector="G"
+         scale="5"
+         result="result4"
+         in2="result7"
+         id="feDisplacementMap937" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(255,255,255)"
+         id="feFlood939" />
+      <feComposite
+         k3="0.7"
+         k1="0.7"
+         result="result2"
+         operator="arithmetic"
+         in2="result4"
+         id="feComposite941"
+         k2="0"
+         k4="0" />
+      <feComposite
+         k2="1"
+         in="result2"
+         operator="arithmetic"
+         in2="SourceAlpha"
+         k1="1"
+         result="result6"
+         id="feComposite943"
+         k3="0"
+         k4="0" />
+      <feBlend
+         mode="multiply"
+         in2="result6"
+         in="result6"
+         id="feBlend945" />
+    </filter>
+    <filter
+       x="-0.15000001"
+       width="1.3"
+       y="-0.15000001"
+       height="1.3"
+       inkscape:menu-tooltip="Stone wall texture to use with not too saturated colors"
+       inkscape:menu="Textures"
+       inkscape:label="Stone Wall"
+       style="color-interpolation-filters:sRGB"
+       id="filter971">
+      <feTurbulence
+         type="turbulence"
+         numOctaves="5"
+         baseFrequency="0.08 0.175"
+         seed="25"
+         id="feTurbulence949" />
+      <feColorMatrix
+         result="result5"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         id="feColorMatrix951" />
+      <feComposite
+         in="SourceGraphic"
+         operator="in"
+         in2="result5"
+         id="feComposite953" />
+      <feMorphology
+         operator="dilate"
+         radius="0.65"
+         result="result3"
+         id="feMorphology955" />
+      <feTurbulence
+         numOctaves="7"
+         baseFrequency="0.05 0.09"
+         type="fractalNoise"
+         seed="25"
+         id="feTurbulence957" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="result7"
+         id="feGaussianBlur959" />
+      <feDisplacementMap
+         in="result3"
+         xChannelSelector="R"
+         yChannelSelector="G"
+         scale="5"
+         result="result4"
+         in2="result7"
+         id="feDisplacementMap961" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(255,255,255)"
+         id="feFlood963" />
+      <feComposite
+         k3="0.7"
+         k1="0.7"
+         result="result2"
+         operator="arithmetic"
+         in2="result4"
+         id="feComposite965"
+         k2="0"
+         k4="0" />
+      <feComposite
+         k2="1"
+         in="result2"
+         operator="arithmetic"
+         in2="SourceAlpha"
+         k1="1"
+         result="result6"
+         id="feComposite967"
+         k3="0"
+         k4="0" />
+      <feBlend
+         mode="multiply"
+         in2="result6"
+         in="result6"
+         id="feBlend969" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1143"
+       id="radialGradient1147"
+       cx="1733.2196"
+       cy="95.842804"
+       fx="1733.2196"
+       fy="95.842804"
+       r="9.5545263"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.25000001"
+     inkscape:cx="846.46135"
+     inkscape:cy="2177.5726"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       position="-1445.7216,632.57983"
+       orientation="1,0"
+       id="guide4591"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-1445.7216,632.57984"
+       orientation="0,1"
+       id="guide4593"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-1481.7545,515.9581"
+       orientation="1,0"
+       id="guide4595"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-1481.7545,515.9581"
+       orientation="0,1"
+       id="guide4597"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-1370.1445,632.57983"
+       orientation="0,1"
+       id="guide4599"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-1370.1445,632.57984"
+       orientation="1,0"
+       id="guide4601"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-1406.3394,515.9581"
+       orientation="1,0"
+       id="guide4603"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-1300.928,620.10661"
+       orientation="0,1"
+       id="guide4632"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-1300.928,620.10661"
+       orientation="1,0"
+       id="guide4634"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-1300.928,539.68059"
+       orientation="0,1"
+       id="guide4637"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-1393.1111,503.48488"
+       orientation="1,0"
+       id="guide4640"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-1393.0046,503.48489"
+       orientation="0,1"
+       id="guide4642"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1530.152,-3.404049)">
+    <rect
+       transform="matrix(-0.8660254,0.5,0.5,0.8660254,0,0)"
+       ry="4.748878"
+       y="943.50275"
+       x="-1463.9242"
+       height="202.53923"
+       width="15.143122"
+       id="rect897"
+       style="opacity:1;fill:#552200;fill-opacity:1;stroke:none;stroke-width:3.79410386;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter947)" />
+    <rect
+       style="opacity:1;fill:#552200;fill-opacity:1;stroke:none;stroke-width:3.79410386;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter923)"
+       id="rect893"
+       width="15.143122"
+       height="202.53923"
+       x="1538.7908"
+       y="-790.11548"
+       ry="4.748878"
+       transform="rotate(30)" />
+    <g
+       id="g4664"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:162.9203949px;line-height:1.25;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L';letter-spacing:0px;word-spacing:0px;fill:#002d4f;fill-opacity:1;stroke:none;stroke-width:4.07300997"
+       aria-label="H"
+       transform="translate(386.43494,19.327498)"
+       clip-path="url(#clipPath4682)" />
+    <g
+       id="g4776"
+       transform="matrix(1,0,0.37632775,0.854802,-41.540521,95.696498)" />
+    <g
+       id="g5103"
+       transform="matrix(-1,0,0,1,3461.1132,-6.1782065)">
+      <path
+         style="opacity:0.98999999;fill:#3c8fff;fill-opacity:0.99215686;stroke-width:0.34462488"
+         d="m 1615.4233,263.62422 c -10.0086,0 -18.066,8.05759 -18.066,18.06606 v 173.5455 h -45.5993 c -8.7222,0 -15.7438,7.02159 -15.7438,15.74374 v 25.03051 c 0,3.90406 1.4097,7.46522 3.7461,10.21075 l 8.6227,11.76258 10.0164,-6.22906 h 38.9579 v 173.54547 c 0,4.16153 1.3963,7.98293 3.7434,11.03085 v 0.003 l 9.138,12.39512 8.6346,-5.36247 h 16.9395 c 10.0086,0 18.0661,-8.0576 18.0661,-18.06607 V 511.75438 h 147.4995 v 173.54547 c 0,4.4209 1.5736,8.45928 4.1915,11.59256 l 7.8698,10.80349 7.4683,-4.32998 h 18.9229 c 10.0086,0 18.066,-8.0576 18.066,-18.06607 V 511.75438 h 45.5993 c 8.722,0 15.7438,-7.02215 15.7438,-15.74427 v -20.22253 l 5.8451,-7.33446 -11.3089,-9.4175 v 0.004 c -2.7544,-2.37048 -6.3407,-3.80338 -10.2764,-3.80338 h -45.5993 V 284.13371 l 5.2121,-6.54069 -10.8856,-9.06404 c -3.2305,-3.0417 -7.5847,-4.90461 -12.3925,-4.90461 h -20.3869 c -10.0086,0 -18.0656,8.0576 -18.0656,18.06607 v 173.5455 h -147.4995 v -173.5455 c 0,-0.0873 -0.01,-0.17341 -0.01,-0.26043 l 3.9238,-4.92321 -9.6604,-8.04396 c -0.4987,-0.46459 -1.0218,-0.90287 -1.571,-1.30898 l -0.078,-0.0646 -0.01,0.006 c -2.986,-2.18194 -6.6703,-3.47059 -10.6681,-3.47059 z"
+         id="rect4860"
+         inkscape:connector-curvature="0" />
+      <path
+         style="opacity:1;fill:#f1f1f1;fill-opacity:1;stroke:#3c8fff;stroke-width:3.54500008;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 1625.3747,274.20788 c -10.0086,0 -18.0661,8.05759 -18.0661,18.06606 v 173.5455 h -45.5988 c -8.7222,0 -15.7443,7.02159 -15.7443,15.74374 v 25.03051 c 0,8.72215 7.0221,15.74427 15.7443,15.74427 h 45.5988 v 173.54547 c 0,10.00847 8.0575,18.06607 18.0661,18.06607 h 20.3868 c 10.0086,0 18.0661,-8.0576 18.0661,-18.06607 V 522.33796 h 147.499 v 173.54547 c 0,10.00847 8.0575,18.06607 18.0661,18.06607 h 20.3863 c 10.0087,0 18.0661,-8.0576 18.0661,-18.06607 V 522.33796 h 45.5993 c 8.7221,0 15.7443,-7.02212 15.7443,-15.74427 v -25.03051 c 0,-8.72215 -7.0222,-15.74374 -15.7443,-15.74374 h -45.5993 v -173.5455 c 0,-10.00847 -8.0574,-18.06606 -18.0661,-18.06606 h -20.3863 c -10.0086,0 -18.0661,8.05759 -18.0661,18.06606 v 173.5455 h -147.499 v -173.5455 c 0,-10.00847 -8.0575,-18.06606 -18.0661,-18.06606 z"
+         id="rect4878"
+         inkscape:connector-curvature="0" />
+    </g>
+    <circle
+       style="opacity:1;fill:#1a1a1a;fill-opacity:1;stroke:url(#radialGradient1147);stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+       id="path973"
+       cx="1733.2196"
+       cy="95.842804"
+       r="8.3343744"
+       transform="matrix(0.86112798,0,0,0.86112798,240.1626,13.835112)" />
+  </g>
+  <style
+     id="style4530"
+     type="text/css">
+	.st0{fill:#00D8FF;}
+</style>
+</svg>
