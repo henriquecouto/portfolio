@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
-import "./style.css";
+import styles from "./index.css";
 import MyLink from "./MyLink";
 import SocialLink from "./SocialLink";
 import LogoSwing from "../LogoSwing";
@@ -13,21 +13,21 @@ class SideBar extends Component {
     const { children } = this.props;
     return (
       <>
-        <div className="sidenav">
+        <div className={styles.sidenav}>
           <Link to="/">
-            <div className="section">
-              <img src={logo} className="logo" alt="Logo H" />
+            <div className={styles.section}>
+              <img src={logo} className={styles.logo} alt="Logo H" />
             </div>
           </Link>
 
-          <div className="section">
+          <div className={styles.section}>
             <MyLink to="/" icon="home" text="INÍCIO" />
             <MyLink to="/contact" icon="mail" text="CONTATO" />
             <MyLink to="/works" icon="dashboard" text="TRABALHOS" />
             <MyLink to="/about" icon="person" text="SOBRE" />
           </div>
 
-          <div className="section">
+          <div className={styles.section}>
             <SocialLink
               to="https://www.facebook.com/henriqcouto"
               icon="fa-facebook"
@@ -43,7 +43,7 @@ class SideBar extends Component {
           </div>
         </div>
 
-        <div className="main">
+        <div className={styles.main}>
           <div className="container">
             <div className="row">
               {children}

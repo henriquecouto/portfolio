@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
-import "./style.css";
+import styles from "./SocialLink.css";
 
 class SocialLink extends Component {
   render() {
@@ -9,7 +9,7 @@ class SocialLink extends Component {
     return (
       <button>
         <a href={to} target="_blank" rel="noopener noreferrer">
-          <i className={`fab ${icon} fa-xs icon`} />
+          <i className={`fab ${icon} fa-xs ${styles.icon}`} />
         </a>
       </button>
     );

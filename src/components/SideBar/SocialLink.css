@@ -1,0 +1,10 @@
+:local(.icon) {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  opacity: 0.7;
+}
+
+:local(.icon:hover) {
+  color: rgb(0, 170, 255);
+  opacity: 1;
+}

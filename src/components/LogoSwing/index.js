@@ -2,12 +2,18 @@ import React, { Component } from "react";
 
 import logo from "../../assets/logo1.svg";
 
+import styles from "./index.css";
+
 export default class LogoSwing extends Component {
   render() {
     return (
       <div className="column">
-        <figure className="swing">
-          <img src={logo} className="logo-img" />
+        <figure className={styles.swing}>
+          <img
+            alt="Logo balançando como se estivesse pendurada"
+            src={logo}
+            className={styles.logoImg}
+          />
         </figure>
       </div>
     );

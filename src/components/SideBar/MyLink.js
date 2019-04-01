@@ -2,15 +2,15 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
-import "./style.css";
+import style from "./MyLink.css";
 
 class MyLink extends Component {
   render() {
     const { to, icon, text } = this.props;
     return (
-      <Link to={to} className="link">
-        <i className="material-icons-round scale-up-center">{icon}</i>
-        <p className="tracking-in-expand">{text}</p>
+      <Link to={to} className={style.link}>
+        <i className={"material-icons-round " + style.scaleUpCenter}>{icon}</i>
+        <p className={style.trackingInExpand}>{text}</p>
       </Link>
     );
   }

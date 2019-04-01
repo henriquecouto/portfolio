@@ -7,13 +7,13 @@ import Contact from "./components/Contact";
 import Works from "./components/Works";
 import About from "./components/About";
 
-import "./App.css";
+import styles from "./App.css";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
+      <div className={styles.App}>
+        <div className={styles.AppHeader}>
           <Router>
             <SideBar>
               <Route exact path="/" component={Home} />

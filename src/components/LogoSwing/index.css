@@ -1,0 +1,47 @@
+:local(.logoImg) {
+  margin-top: -90px;
+  width: 350px;
+  /* transform: rotate(-20deg); */
+}
+
+:local(.swing) {
+  animation: swing ease-in-out 1s infinite alternate;
+  transform-origin: center -20px;
+  float: left;
+}
+
+:local(.swing img) {
+  display: block;
+}
+
+:local(.swing:after) {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: -10px;
+  left: 50%;
+  z-index: 0;
+  border-bottom: none;
+  border-right: none;
+  transform: rotate(45deg);
+}
+
+:local(.swing:before) {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: -14px;
+  left: 54%;
+  z-index: 5;
+  border-radius: 50% 50%;
+  background: #000;
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(-3deg);
+  }
+}
