@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import styles from "./index.css";
 import MyLink from "./MyLink";
 import SocialLink from "./SocialLink";
-import LogoSwing from "../LogoSwing";
 import logo from "../../assets/logo.svg";
 
 class SideBar extends Component {
@@ -44,11 +43,8 @@ class SideBar extends Component {
         </div>
 
         <div className={styles.main}>
-          <div className="container">
-            <div className="row">
-              {children}
-              <LogoSwing />
-            </div>
+          <div className="row">
+            {children}
           </div>
         </div>
       </>
