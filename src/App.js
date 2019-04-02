@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import SideBar from "./components/SideBar";
-import LogoSwing from "./components/LogoSwing";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Works from "./components/Works";
@@ -23,7 +22,6 @@ class App extends Component {
               <Route exact path="/about" component={About} />
             </SideBar>
           </Router>
-          <LogoSwing />
         </div>
       </div>
     );

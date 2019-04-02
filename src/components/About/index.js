@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 
-class About extends Component {
+// import styles from "./index.css";
+
+export default class Home extends Component {
   render() {
     return (
-      <>
+      <div className="row">
         <div className="column">
-          <h1>About</h1>
+          <p>Sobre</p>
         </div>
-      </>
+      </div>
     );
   }
 }
-
-export default About;

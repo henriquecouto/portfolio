@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 
-class Contact extends Component {
+// import styles from "./index.css";
+
+export default class Home extends Component {
   render() {
     return (
-      <>
+      <div className="row">
         <div className="column">
-          <h1>Contact</h1>
+          <p>Contato</p>
         </div>
-      </>
+      </div>
     );
   }
 }
-
-export default Contact;
