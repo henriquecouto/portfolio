@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 
 import styles from "./index.css";
+import BaseScreen from "../BaseScreen";
 
-export default class Home extends Component {
+export default class Contact extends Component {
   render() {
     return (
-      <div className={styles.root}>
-        <h1>Contato</h1>
+      <BaseScreen title="Contato">
         <form action="/" method="post">
           <input
             required
@@ -36,7 +36,7 @@ export default class Home extends Component {
           />
           <button className={styles.button}>ENVIAR</button>
         </form>
-      </div>
+      </BaseScreen>
     );
   }
 }

@@ -1,15 +1,12 @@
 import React, { Component } from "react";
+import BaseScreen from "../BaseScreen";
 
-// import styles from "./index.css";
-
-export default class Home extends Component {
+export default class Works extends Component {
   render() {
     return (
-      <div className="row">
-        <div className="column">
-          <p>Trabalhos</p>
-        </div>
-      </div>
+      <BaseScreen title="Trabalhos">
+        <h2>Conteúdo</h2>
+      </BaseScreen>
     );
   }
 }
