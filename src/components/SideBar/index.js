@@ -42,11 +42,9 @@ class SideBar extends Component {
           </div>
         </div>
 
-        <div className={styles.main}>
-          <div className="row">
-            {children}
-          </div>
-        </div>
+        {/* <div className={styles.main}> */}
+        {children}
+        {/* </div> */}
       </>
     );
   }

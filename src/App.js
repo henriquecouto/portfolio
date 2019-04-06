@@ -13,16 +13,14 @@ class App extends Component {
   render() {
     return (
       <div className={styles.App}>
-        <div className={styles.AppHeader}>
-          <Router>
-            <SideBar>
-              <Route exact path="/" component={Home} />
-              <Route exact path="/contact" component={Contact} />
-              <Route exact path="/works" component={Works} />
-              <Route exact path="/about" component={About} />
-            </SideBar>
-          </Router>
-        </div>
+        <Router>
+          <SideBar>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/works" component={Works} />
+            <Route exact path="/about" component={About} />
+          </SideBar>
+        </Router>
       </div>
     );
   }
