@@ -8,8 +8,8 @@ class BaseScreen extends Component {
     const { children, title } = this.props;
     return (
       <div className={styles.root}>
-        <h1>{title}</h1>
-        {children}
+        <h1 className={styles.title}>{title}</h1>
+        <div className={styles.content}>{children}</div>
       </div>
     );
   }

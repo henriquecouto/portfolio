@@ -41,8 +41,7 @@ class SideBar extends Component {
             />
           </div>
         </div>
-
-        {children}
+        <div className={styles.main}>{children}</div>
       </>
     );
   }

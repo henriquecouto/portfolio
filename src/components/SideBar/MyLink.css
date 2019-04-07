@@ -29,14 +29,12 @@
 }
 
 :local(.scaleUpCenter) {
-  -webkit-animation: scale-up-center 0.5s cubic-bezier(0.39, 0.575, 0.565, 1)
-    both;
+  -webkit-animation: scale-up-center 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: scale-up-center 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 :local(.trackingInExpand) {
-  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1)
-    both;
+  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
   animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
@@ -50,6 +48,7 @@
     transform: scale(1);
   }
 }
+
 @keyframes scale-up-center {
   0% {
     -webkit-transform: scale(0.6);
@@ -73,6 +72,7 @@
     opacity: 1;
   }
 }
+
 @keyframes tracking-in-expand {
   0% {
     letter-spacing: -0.5em;

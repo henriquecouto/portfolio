@@ -1,0 +1,29 @@
+:local(.text) {
+  margin: 0 30px;
+  text-align: justify;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+:local(.social) {
+  font-family: "Mouse Memoirs", sans-serif;
+  margin-top: 30px;
+  display: flex;
+}
+
+:local(.social a) {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 25px;
+  width: 100%;
+  border-style: none;
+  padding: 10px 15px;
+  background-color: rgba(59, 46, 197, 0.4);
+  color: rgba(255, 255, 255, 0.6);
+  outline: none;
+  transition: 0.3s;
+}
+
+:local(.social a:hover) {
+  cursor: pointer;
+  background-color: rgba(59, 46, 197);
+  color: rgba(255, 255, 255);
+}

@@ -7,7 +7,7 @@ export default class Contact extends Component {
   render() {
     return (
       <BaseScreen title="Contato">
-        <form action="/" method="post">
+        <form action="/" method="post" className={styles.contact}>
           <input
             required
             className={styles.input}
@@ -30,7 +30,7 @@ export default class Contact extends Component {
           />
           <textarea
             required
-            className={styles.input}
+            className={styles.input + " " + styles.message}
             name="msg"
             placeholder="MENSAGEM"
           />

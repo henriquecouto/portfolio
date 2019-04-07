@@ -1,4 +1,4 @@
-:local(form) {
+:local(.contact) {
   display: flex;
   flex-direction: column;
   justify-items: center;
@@ -6,18 +6,26 @@
 }
 
 :local(.input) {
+  font-family: 'Raleway', sans-serif;
   font-size: 14px;
   padding: 10px 30px;
-  margin: 7px 0;
-  background-color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 7px;
+  background-color: rgba(0, 0, 0, 0);
   border-style: none;
-  color: #fff9;
-  border-bottom: 3px solid rgba(0, 0, 0, 0);
+  color: rgba(255, 255, 255, 0.6);
+  border-top: 3px solid rgba(59, 46, 197, 0);
+  border-bottom: 3px solid rgba(59, 46, 197, 0);
   outline: none;
   transition: 0.3s;
 }
 
+:local(.input:hover) {
+  border-top: 3px solid rgba(59, 46, 197, 0.4);
+  border-bottom: 3px solid rgba(59, 46, 197, 0.4);
+}
+
 :local(.input:focus) {
+  border-top: 3px solid rgb(59, 46, 197);
   border-bottom: 3px solid rgb(59, 46, 197);
 }
 
@@ -25,22 +33,25 @@
   color: #fff5;
 }
 
-:local(textarea) {
+:local(.message) {
   resize: none;
   min-height: 200px;
 }
 
 :local(.button) {
-  font-size: 14px;
-  font-weight: bold;
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 25px;
+  /* font-weight: bold; */
   border-style: none;
   padding: 10px 15px;
-  margin: 7px 0;
   color: rgba(255, 255, 255, 0.6);
   background-color: rgba(59, 46, 197, 0.4);
   outline: none;
+  transition: 0.3s;
 }
 
 :local(.button:hover) {
   cursor: pointer;
+  background-color: rgba(59, 46, 197);
+  color: rgba(255, 255, 255);
 }

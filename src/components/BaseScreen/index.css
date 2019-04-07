@@ -1,15 +1,47 @@
 :local(.root) {
-  width: 500px;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   height: 100%;
-  position: fixed;
+  /* position: fixed;
   z-index: 1;
   top: 0px;
+  left: 30%; */
   background-color: rgba(0, 0, 0, 0.411);
   overflow-x: hidden;
   box-shadow: 0px 0px 50px -40px rgba(255, 248, 210, 0.667);
   padding: 7px 0;
-  margin: -7px;
+  margin: -7px 0;
+}
+
+:local(.root::-webkit-scrollbar) {
+  background-color: rgba(0, 0, 0, 0.411);
+  width: 10px;
+}
+
+:local(.root::-webkit-scrollbar-thumb) {
+  background-color: rgba(59, 46, 197, 0.4);
+}
+
+:local(.root::-webkit-scrollbar-thumb:hover) {
+  background-color: rgba(59, 46, 197);
+}
+
+:local(.title) {
+  font-size: 55px;
+  text-shadow: 1px 1px 20px rgb(59, 46, 197);
+}
+
+:local(.content) {
+  font-family: 'Raleway', sans-serif;
+  padding: 10px 0;
+  margin-bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (max-width: 450px) {
+  :local(.title) {
+    font-size: 45px;
+    text-shadow: 1px 1px 15px rgb(59, 46, 197);
+  }
 }
