@@ -10,26 +10,22 @@ export default class Home extends Component {
       <BaseScreen title="Henrique Couto">
         <>
           <div className={styles.text}>
-            Mussum Ipsum, cacilds vidis litro abertis. Viva Forevis aptent
-            taciti sociosqu ad litora torquent. Detraxit consequat et quo num
-            tendi nada. Nullam volutpat risus nec leo commodo, ut interdum diam
-            laoreet. Sed non consequat odio. Nec orci ornare consequat. Praesent
-            lacinia ultrices consectetur. Sed non ipsum felis. Mussum Ipsum,
-            cacilds vidis litro abertis. Viva Forevis aptent taciti sociosqu ad
-            litora torquent. Detraxit consequat et quo num tendi nada. Nullam
-            volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non
-            consequat odio. Nec orci ornare consequat. Praesent lacinia ultrices
-            consectetur. Sed non ipsum felis. Mussum Ipsum, cacilds vidis litro
-            abertis. Viva Forevis aptent taciti sociosqu ad litora torquent.
-            Detraxit consequat et quo num tendi nada. Nullam volutpat risus nec
-            leo commodo, ut interdum diam laoreet. Sed non consequat odio. Nec
-            orci ornare consequat. Praesent lacinia ultrices consectetur. Sed
-            non ipsum felis. Mussum Ipsum, cacilds vidis litro abertis. Viva
-            Forevis aptent taciti sociosqu ad litora torquent. Detraxit
-            consequat et quo num tendi nada. Nullam volutpat risus nec leo
-            commodo, ut interdum diam laoreet. Sed non consequat odio. Nec orci
-            ornare consequat. Praesent lacinia ultrices consectetur. Sed non
-            ipsum felis.
+            <p>
+              <span className={styles.spot}>Olá,</span> eu sou Desenvolvedor Web
+              Full Stack, atualmente cursando Bacharel em Sistemas de Informação
+              pela Universidade Federal de Alagoas (UFAL).
+            </p>
+            <p>
+              Tenho trabalhado principalmente com{" "}
+              <span className={styles.spot}>ReactJS</span> no Front-end e{" "}
+              <span className={styles.spot}>Express</span> no Back-end, porém
+              estou disponível para pegar e aprender outras linguagens e
+              frameworks!
+            </p>
+            <p className={styles.spot}>
+              Se você deseja desenvolver uma aplicação com tecnologias Web, eu
+              adoraria trabalhar nela com você!
+            </p>
           </div>
           <div className={styles.social}>
             <Link to="/contact">ENVIE UMA MENSAGEM</Link>
