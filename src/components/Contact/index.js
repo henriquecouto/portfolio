@@ -6,7 +6,7 @@ import BaseScreen from "../BaseScreen";
 export default class Contact extends Component {
   render() {
     return (
-      <BaseScreen title="Entrar em contato">
+      <BaseScreen title="Me envie uma mensagem">
         <form action="/" method="post" className={styles.contact}>
           <input
             required

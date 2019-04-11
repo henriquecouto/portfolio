@@ -9,16 +9,17 @@ import perfil from "../../assets/perfil.jpg";
 export default class Home extends Component {
   render() {
     return (
-      <BaseScreen title="Henrique Couto">
+      <BaseScreen title="Quem sou eu">
         <>
           <div className={styles.text}>
             <div className={styles.perfil}>
               <img src={perfil} alt="perfil" />
             </div>
             <p>
-              <span className={styles.spot}>Olá,</span> eu sou Desenvolvedor Web
-              Full Stack, atualmente estou cursando Bacharel em Sistemas de
-              Informação.
+              Olá, eu me chamo{" "}
+              <span className={styles.spot}>Henrique Couto</span>, sou
+              Desenvolvedor Web Full Stack e atualmente estou cursando Bacharel
+              em Sistemas de Informação.
             </p>
             <p>
               Tenho trabalhado principalmente com{" "}
@@ -33,7 +34,7 @@ export default class Home extends Component {
             </p>
           </div>
           <div className={styles.social}>
-            <Link to="/contact">ENVIE UMA MENSAGEM</Link>
+            <Link to="/contact">ME ENVIE UMA MENSAGEM</Link>
           </div>
         </>
       </BaseScreen>
