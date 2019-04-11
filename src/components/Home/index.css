@@ -2,6 +2,29 @@
   margin: 0 30px;
   text-align: justify;
   color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+:local(.text p) {
+  margin-bottom: 0;
+}
+
+:local(.perfil) {
+  width: 140px;
+  height: 140px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+:local(.perfil img) {
+  width: 100%;
+  position: absolute;
+  display: block;
+  top: -30px;
+  left: 0;
 }
 
 :local(.spot) {

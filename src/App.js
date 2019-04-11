@@ -5,7 +5,7 @@ import SideBar from "./components/SideBar";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Works from "./components/Works";
-import About from "./components/About";
+import Skills from "./components/Skills";
 
 import styles from "./App.css";
 
@@ -18,7 +18,7 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/works" component={Works} />
-            <Route exact path="/about" component={About} />
+            <Route exact path="/skills" component={Skills} />
           </SideBar>
         </Router>
       </div>

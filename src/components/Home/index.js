@@ -4,16 +4,21 @@ import { Link } from "react-router-dom";
 import BaseScreen from "../BaseScreen";
 import styles from "./index.css";
 
+import perfil from "../../assets/perfil.jpg";
+
 export default class Home extends Component {
   render() {
     return (
       <BaseScreen title="Henrique Couto">
         <>
           <div className={styles.text}>
+            <div className={styles.perfil}>
+              <img src={perfil} alt="perfil" />
+            </div>
             <p>
               <span className={styles.spot}>Olá,</span> eu sou Desenvolvedor Web
-              Full Stack, atualmente cursando Bacharel em Sistemas de Informação
-              pela Universidade Federal de Alagoas (UFAL).
+              Full Stack, atualmente estou cursando Bacharel em Sistemas de
+              Informação.
             </p>
             <p>
               Tenho trabalhado principalmente com{" "}

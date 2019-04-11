@@ -6,7 +6,7 @@ import styles from "./index.css";
 export default class Works extends Component {
   render() {
     return (
-      <BaseScreen title="Trabalhos">
+      <BaseScreen title="Meus trabalhos">
         <>
           <div className={styles.text}>Conteúdo</div>
         </>

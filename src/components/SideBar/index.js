@@ -21,9 +21,9 @@ class SideBar extends Component {
 
           <div className={styles.section}>
             <MyLink to="/" icon="home" text="INÍCIO" />
-            <MyLink to="/contact" icon="mail" text="CONTATO" />
-            <MyLink to="/works" icon="dashboard" text="TRABALHOS" />
-            <MyLink to="/about" icon="person" text="SOBRE" />
+            <MyLink to="/contact" icon="chat" text="CONTATO" />
+            <MyLink to="/works" icon="work" text="TRABALHOS" />
+            <MyLink to="/skills" icon="category" text="HABILIDADES" />
           </div>
 
           <div className={styles.section}>
