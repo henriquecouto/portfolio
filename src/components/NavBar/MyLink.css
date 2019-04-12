@@ -28,6 +28,13 @@
   display: none;
 }
 
+@media screen and (max-width: 771px) {
+  :local(.link) {
+    width: 50px;
+    height: 100%;
+  }
+}
+
 :local(.scaleUpCenter) {
   -webkit-animation: scale-up-center 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: scale-up-center 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;

@@ -45,3 +45,9 @@
     text-shadow: 1px 1px 15px rgb(59, 46, 197);
   }
 }
+
+@media screen and (max-width: 771px) {
+  :local(.root) {
+    overflow-y: auto;
+  }
+}

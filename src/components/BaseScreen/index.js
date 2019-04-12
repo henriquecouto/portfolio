@@ -17,7 +17,7 @@ class BaseScreen extends Component {
 
 BaseScreen.propTypes = {
   children: PropTypes.object.isRequired,
-  title: PropTypes.string.isRequired
+  title: PropTypes.string
 };
 
 export default BaseScreen;

@@ -10,22 +10,22 @@
   font-size: 14px;
   padding: 10px 30px;
   margin-bottom: 7px;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(194, 194, 194, 0.05);
   border-style: none;
   color: rgba(255, 255, 255, 0.6);
-  border-top: 3px solid rgba(59, 46, 197, 0);
+  /* border-top: 3px solid rgba(59, 46, 197, 0); */
   border-bottom: 3px solid rgba(59, 46, 197, 0);
   outline: none;
   transition: 0.3s;
 }
 
 :local(.input:hover) {
-  border-top: 3px solid rgba(59, 46, 197, 0.4);
+  /* border-top: 3px solid rgba(59, 46, 197, 0.4); */
   border-bottom: 3px solid rgba(59, 46, 197, 0.4);
 }
 
 :local(.input:focus) {
-  border-top: 3px solid rgb(59, 46, 197);
+  /* border-top: 3px solid rgb(59, 46, 197); */
   border-bottom: 3px solid rgb(59, 46, 197);
 }
 
@@ -33,12 +33,16 @@
   color: #fff5;
 }
 
+:local(.error), :local(.error:hover), :local(.error:focus) {
+  border-bottom: 3px solid rgb(197, 46, 71)
+}
+
 :local(.message) {
   resize: none;
   min-height: 200px;
 }
 
-:local(.button) {
+:local(.disabled), :local(.enabled) {
   font-family: "Mouse Memoirs", sans-serif;
   font-size: 25px;
   /* font-weight: bold; */
@@ -48,9 +52,10 @@
   background-color: rgba(59, 46, 197, 0.4);
   outline: none;
   transition: 0.3s;
+  width: 100%;
 }
 
-:local(.button:hover) {
+:local(.enabled:hover) {
   cursor: pointer;
   background-color: rgba(59, 46, 197);
   color: rgba(255, 255, 255);
