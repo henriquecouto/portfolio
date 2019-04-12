@@ -9,7 +9,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.411);
+  background-color: rgba(0, 0, 0, 0.4);
   overflow-x: hidden;
   box-shadow: -33px 0px 50px rgba(255, 248, 210, 0.667);
 }
@@ -85,9 +85,8 @@
   :local(.sidenav div button) {
     width: 30%;
   }
-  :local(.section div) {
-    display: flex;
-    flex-direction: column;
+  :local(.social) {
+    display: none;
   }
   :local(.link) {
     display: flex;

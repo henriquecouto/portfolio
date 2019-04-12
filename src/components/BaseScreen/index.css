@@ -14,13 +14,13 @@
   margin: -7px 0;
 }
 
+:local(.root::-webkit-scrollbar-thumb) {
+  background-color: rgba(59, 46, 197, 0.4);
+}
+
 :local(.root::-webkit-scrollbar) {
   background-color: rgba(0, 0, 0, 0.411);
   width: 10px;
-}
-
-:local(.root::-webkit-scrollbar-thumb) {
-  background-color: rgba(59, 46, 197, 0.4);
 }
 
 :local(.root::-webkit-scrollbar-thumb:hover) {
@@ -49,5 +49,6 @@
 @media screen and (max-width: 771px) {
   :local(.root) {
     overflow-y: auto;
+    height: auto;
   }
 }

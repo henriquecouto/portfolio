@@ -26,8 +26,8 @@ class NavBar extends Component {
             <MyLink to="/skills" icon="category" text="HABILIDADES" />
           </div>
 
-          <div className={styles.section}>
-            <div>
+          <div className={styles.social}>
+            <div className={styles.section}>
               <SocialLink
                 to="https://www.facebook.com/henriqcouto"
                 icon="fa-facebook"
