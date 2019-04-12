@@ -34,6 +34,29 @@ export default class Home extends Component {
             </p>
           </div>
           <div className={styles.social}>
+            <a
+              href="https://www.facebook.com/henriqcouto"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              FACEBOOK
+            </a>
+            <a
+              href="https://github.com/henriquecouto"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GITHUB
+            </a>
+            <a
+              href="https://www.linkedin.com/in/henrique-couto-3287b1133/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LINKEDIN
+            </a>
+          </div>
+          <div className={styles.social}>
             <Link to="/contact">ME ENVIE UMA MENSAGEM</Link>
           </div>
         </>
