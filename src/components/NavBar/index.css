@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  width: 70px;
+  width: 9vh;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -17,10 +17,6 @@
 :local(.main) {
   margin-left: 0px;
 }
-
-/* :local(.sidenav div) {
-  margin-left: -2px;
-} */
 
 :local(.sidenav div button) {
   width: 30%;
